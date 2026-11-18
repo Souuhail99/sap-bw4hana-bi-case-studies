@@ -1,0 +1,18 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.key
+*.pem
+
+# Operating-system / IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.metadata/
+
+# Original submission PDFs should be reviewed, anonymized and licensed
+*_Ziraouine_*.pdf
+K_TEC_049_Projekt_*.pdf
